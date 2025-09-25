@@ -1,0 +1,61 @@
+/* Navbar background */
+.custom-navbar {
+  background-color: transparent !important;
+  
+}
+
+/* Nav links */
+.custom-navbar .nav-link {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(152, 171, 167) !important;
+  transition: color 0.3s ease; 
+   margin-left: 150px;
+
+  
+
+}
+
+.custom-navbar .nav-link:hover {
+  color: #1d62ca !important;
+}
+
+/* Brand */
+.custom-navbar .navbar-brand {
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(74, 224, 159) !important;
+}
+
+/* Resume button */
+.navbar-text .btn {
+  font-size: 16px;
+  padding: 5px 12px;
+  color: aqua;
+}
+
+/* Mobile styles */
+@media (max-width: 991px) {
+  .custom-navbar .nav-link {
+    font-size: 14px;
+    text-align: left;
+    padding-left: 15px;
+  }
+
+  .custom-navbar .navbar-brand {
+    font-size: 20px;
+  }
+
+  /* Dropdown background when open */
+  .custom-navbar .collapse.show {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px 0;
+  }
+
+  /* Make resume button full width on mobile */
+  .navbar-text .btn {
+    display: block;
+    width: 30%;
+    margin-top: 10px;
+  }
+}

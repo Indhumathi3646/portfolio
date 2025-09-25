@@ -1,0 +1,194 @@
+.education-section {
+  background-color: #0d0d0d; /* dark background */
+  color: #fff;
+  padding: 80px 100px;
+  min-height: 100vh;
+}
+
+.section-title {
+  font-size: 3.8rem;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #38bdf8; 
+}
+
+
+.education-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.education-card {
+  background: #111;
+  border: 1px solid #38bdf8;
+  border-radius: 12px;
+  padding: 30px 45px;
+  text-align: left;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.5);
+}
+
+
+.education-degree {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #fff; /* white for heading */
+  margin-bottom: 8px;
+}
+
+/* Sub-heading (University) */
+.education-university {
+  font-size: 1.5rem;
+  color: #38bdf8; /* cyan for sub-heading */
+  margin-bottom: 10px;
+}
+
+/* Details */
+.education-details {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: #ccc;
+}
+.back{
+  background:linear-gradient(135deg, #50ba9e,#2a66c0, #4bb8e0);
+  width: 150px;
+  padding: 20px;
+  bottom: 70px;
+  border-radius: 40px;
+  margin-left: 1250px;
+  font-size: 25px;
+}
+
+/* ---------- Tablet view (max-width: 1024px) ---------- */
+@media (max-width: 1024px) {
+  .education-section {
+    padding: 60px 50px;
+  }
+
+  .section-title {
+    font-size: 3rem;
+  }
+
+  .education-boxes {
+    width: 100%;
+    max-width: 900px;
+    gap: 35px;
+    height: auto; /* remove fixed height */
+  }
+
+  .education-card {
+    padding: 25px 35px;
+  }
+
+  .education-degree {
+    font-size: 1.5rem;
+  }
+
+  .education-university {
+    font-size: 1.3rem;
+  }
+
+  .education-details {
+    font-size: 1.1rem;
+  }
+
+  .back {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 22px;
+    width: 140px;
+    padding: 16px;
+  }
+}
+
+/* ---------- Small Tablet / Large Mobile (max-width: 768px) ---------- */
+@media (max-width: 768px) {
+  .education-section {
+    padding: 40px 25px;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .education-boxes {
+    width: 100%;
+    gap: 25px;
+  }
+
+  .education-card {
+    padding: 20px 25px;
+  }
+
+  .education-degree {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .education-university {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .education-details {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .back {
+    margin: 20px auto;
+    font-size: 20px;
+    width: 120px;
+    padding: 14px;
+  }
+}
+
+/* ---------- Mobile (max-width: 480px) ---------- */
+@media (max-width: 480px) {
+  .education-section {
+    padding: 30px 15px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .education-boxes {
+    gap: 20px;
+  }
+
+  .education-card {
+    padding: 15px 20px;
+  }
+
+  .education-degree {
+    font-size: 1.2rem;
+  }
+
+  .education-university {
+    font-size: 1rem;
+  }
+
+  .education-details {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .back {
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 20px auto;
+  }
+}
+
